@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>fontcrate</title>
+     <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+  <nav class="navbar">
+     <div class="navbar-left">
+        <a href="index.html" class="logo"><img src="https://99designs-blog.imgix.net/blog/wp-content/uploads/2017/06/ge.png?auto=format&q=60&fit=max&w=930"></a>
+
+      <div class="search-box">
+         <img src="https://www.kindpng.com/picc/m/147-1477379_mobile-terminal-search-bar-icon-search-bar-png.png">
+         <input type="text" placeholder="Search">
+      </div>
+
+     </div>
+     <div class="navbar-center">
+        <ul>
+          <li><a href="#" class="active-link"><img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTSJCPDuzhSghTDc8jsFx6pAuXl6oJiFh9EnJlEv9_JJc3V6ZF-"> <span>Home</span></a></li>
+        <li><a href="#"><img src="https://static.thenounproject.com/png/638636-200.png"> <span>My Network</span></a></li>
+          <li><a href="#"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXkduawmqjvuRTJdnTIpt0N_ZWqI4IXTYtp6O1djaIeTwrrBioy_JwxUvlxr-A17h51rQ&usqp=CAU"> <span>Jobs</span></a></li>
+          <li><a href="#"><img src="https://simg.nicepng.com/png/small/82-824139_chat-icons-png-image-library-message-icon-black.png"> <span>Messaging</span></a></li>
+          <li><a href="#"><img src="https://creazilla-store.fra1.digitaloceanspaces.com/icons/3263124/notifications-icon-sm.png"> <span>Notification</span></a></li>
+        </ul>
+     </div>
+    <div class="navbar-right">
+       <div class="online">
+<img src="https://99designs-blog.imgix.net/blog/wp-content/uploads/2017/06/ge.png?auto=format&q=60&fit=max&w=930"
+class="nav-profile-img" onclick="toggleMenu()">
+       </div>
+    </div>
+   <!---------------- profile-drop-down-menu---------- -->
+   <div class="profile-menu-wrap" id="profileMenu">
+    <div class="profile-menu">
+      <div class="user-info">
+        <img src="https://99designs-blog.imgix.net/blog/wp-content/uploads/2017/06/ge.png?auto=format&q=60&fit=max&w=930">
+        <div>
+          <h3>John Ahila</h3>
+          <a href="profile.html">See your Profile</a>
+        </div>
+      </div>
+      <hr>
+      <a href="#" class="profile-menu-link">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSXL_MoxlcrXdD64oMMcEUzhIahALI7Od2pA&usqp=CAU">
+        <p>Give Feedback</p>
+        <span>></span>
+      </a>
+      <a href="#" class="profile-menu-link">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQC6bgEXRXHiRIVznP0mjA3RfZd4oIy3AWdpQ&usqp=CAU">
+        <p>Settings & Privacy</p>
+        <span>></span>
+      </a>
+      <a href="#" class="profile-menu-link">
+        <img src="https://p.kindpng.com/picc/s/237-2377724_faq-help-icon-for-android-hd-png-download.png">
+        <p>Help & Support</p>
+        <span>></span>
+      </a>
+      <a href="#" class="profile-menu-link">
+        <img src="https://cdn-icons-png.flaticon.com/512/1512/1512642.png">
+        <p>Display & Accessiblity</p>
+        <span>></span>
+      </a>
+      <a href="#" class="profile-menu-link">
+        <img src="https://cdn-icons-png.flaticon.com/512/1828/1828427.png">
+        <p>Logout</p>
+        <span>></span>
+      </a>
+    </div>
+   </div>
+
+
+
+  </nav>     
+  
+  <!------------- navbar close-------- -->
+
+  <div class="container">
+    <!----------left-sidebar------- -->
+    <div class="left-sidebar">
+      <div class="sidebar-profile-box">
+        <img src="https://res.cloudinary.com/framework-training/image/fetch/s--fkD6skN6--/f_auto,q_auto/http://www.frameworktraining.co.uk/uploads/blog_images/Future--of-javascript/Blog-Course-CTA_ModernJavaScript%20%283%29.png" width="100%">
+        <div class="sidebar-profile-info">
+          <img src="https://99designs-blog.imgix.net/blog/wp-content/uploads/2017/06/ge.png?auto=format&q=60&fit=max&w=930">
+          <h1>John Ahila</h1>
+          <h3>Frontend Development at Cyberinfomatic Students</h3>
+          <ul>
+            <li>Your profile views<span>52</span></li>
+            <li>Your post views<span>65</span></li>
+            <li>Your connections<span>75</span></li>
+          </ul>
+        </div>
+        <div class="sidebar-profile-link">
+          <a href="#"><img src="https://static.vecteezy.com/system/resources/previews/011/048/763/original/3d-bookmark-icon-ui-element-interface-blue-color-design-with-transparent-background-png.png">My items</a>
+          <a href="#"><img src="https://img.freepik.com/premium-photo/stars-rating-icon-set_38816-1233.jpg">Try Premium</a>
+        </div>
+      </div>
+
+      <div class="sidebar-activity" id="sidebarActivity">
+        <h3>RECENT</h3>
+        <a href="#"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnmSqsEHaIBNe2fC0uj9fSz_wtuDk0VFygYydKtrMDiRlbztnkJr3l0-1sZlvLqw-SwtE&usqp=CAU"> Web Development</a>
+        <a href="#"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnmSqsEHaIBNe2fC0uj9fSz_wtuDk0VFygYydKtrMDiRlbztnkJr3l0-1sZlvLqw-SwtE&usqp=CAU"> User Interface</a>
+        <a href="#"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnmSqsEHaIBNe2fC0uj9fSz_wtuDk0VFygYydKtrMDiRlbztnkJr3l0-1sZlvLqw-SwtE&usqp=CAU"> Online Learning</a>
+        <a href="#"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnmSqsEHaIBNe2fC0uj9fSz_wtuDk0VFygYydKtrMDiRlbztnkJr3l0-1sZlvLqw-SwtE&usqp=CAU"> Learn Online</a>
+        <a href="#"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnmSqsEHaIBNe2fC0uj9fSz_wtuDk0VFygYydKtrMDiRlbztnkJr3l0-1sZlvLqw-SwtE&usqp=CAU"> Group Learning</a>
+        <h3>PORTFOLIO</h3>
+        <a href="#"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnmSqsEHaIBNe2fC0uj9fSz_wtuDk0VFygYydKtrMDiRlbztnkJr3l0-1sZlvLqw-SwtE&usqp=CAU"> WEB DESIGN GROUP</a>
+        <a href="#"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnmSqsEHaIBNe2fC0uj9fSz_wtuDk0VFygYydKtrMDiRlbztnkJr3l0-1sZlvLqw-SwtE&usqp=CAU"> HTML & CSS LEARNERS</a>
+        <a href="#"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnmSqsEHaIBNe2fC0uj9fSz_wtuDk0VFygYydKtrMDiRlbztnkJr3l0-1sZlvLqw-SwtE&usqp=CAU"> JAVASCRIPT & Node.js</a>
+        <a href="#"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnmSqsEHaIBNe2fC0uj9fSz_wtuDk0VFygYydKtrMDiRlbztnkJr3l0-1sZlvLqw-SwtE&usqp=CAU"> PHP mySQL</a>
+        <a href="#"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnmSqsEHaIBNe2fC0uj9fSz_wtuDk0VFygYydKtrMDiRlbztnkJr3l0-1sZlvLqw-SwtE&usqp=CAU"> NO CODE PLATFORM</a>
+        <a href="#"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnmSqsEHaIBNe2fC0uj9fSz_wtuDk0VFygYydKtrMDiRlbztnkJr3l0-1sZlvLqw-SwtE&usqp=CAU"> WORDPRESS & BLOGGER</a>
+        <a href="#"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnmSqsEHaIBNe2fC0uj9fSz_wtuDk0VFygYydKtrMDiRlbztnkJr3l0-1sZlvLqw-SwtE&usqp=CAU"> WIX & BUBBLE</a>
+        <a href="#"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnmSqsEHaIBNe2fC0uj9fSz_wtuDk0VFygYydKtrMDiRlbztnkJr3l0-1sZlvLqw-SwtE&usqp=CAU"> FIGMA & </a>
+        <h3>HASHTAG</h3>
+        <a href="#"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnmSqsEHaIBNe2fC0uj9fSz_wtuDk0VFygYydKtrMDiRlbztnkJr3l0-1sZlvLqw-SwtE&usqp=CAU"> Web Design</a>
+        <a href="#"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnmSqsEHaIBNe2fC0uj9fSz_wtuDk0VFygYydKtrMDiRlbztnkJr3l0-1sZlvLqw-SwtE&usqp=CAU"> Software Development</a>
+        <a href="#"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnmSqsEHaIBNe2fC0uj9fSz_wtuDk0VFygYydKtrMDiRlbztnkJr3l0-1sZlvLqw-SwtE&usqp=CAU"> mobile App Development</a>
+        <div class="discover-more-link">
+         <a href="#">Discover More</a>
+        </div>
+      </div>
+
+      <p id="showMoreLink" onclick="toggleActivity()">Show more <b>+</b></p>
+    </div>
+    <!------------main-content-------- -->
+    <div class="main-content">
+
+    <div class="create-post">
+      <div class="create-post-input">
+        <img src="https://99designs-blog.imgix.net/blog/wp-content/uploads/2017/06/ge.png?auto=format&q=60&fit=max&w=930">
+        <textarea rows="2" placeholder="Write a post"></textarea>
+      </div>
+      <div class="create-post-links">
+        <li><img src="https://cdn-icons-png.flaticon.com/512/3687/3687416.png">Photo</li>
+        <li><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_Y48gYhfSPBMTOut_9LAcV7j2ynb7pOzZfr6CJq-ORMdt-Ew860BuShxIXDw2qMZhYjM&usqp=CAU">Video</li>
+        <li><img src="https://icons.veryicon.com/png/o/miscellaneous/a-set-of-color-icons-for-financial-management/operation-report-1.png">Event</li>
+        <li>Post</li>
+      </div>
+    </div>
+    <div class="sort-by">
+      <hr>
+      <p>Sort by: <span>top <img src="https://cdn-icons-png.flaticon.com/512/58/58979.png"></span></p>
+    </div>
+
+   <div class="post">
+    <div class="post-author">
+      <img src="https://i.pinimg.com/736x/16/ff/ab/16ffab0c1f91235dacaa9361079a8142--style-for-men-mens-style.jpg">
+      <div>
+        <h1>Benjamin Leo</h1>
+        <small>How to Learn Digital Marketing at Home & Free (2023 Update)</small>
+        <small>2 hours ago</small>
+      </div>
+    </div>
+    <p>Market share describes how dominant your business is in its space compared with competitors. For new companies 
+      breaking into an industry, growing market share rapidly is a major concern. Without gaining a significant foothold 
+      against your competitors, it will be hard to drive sales to grow revenue.</p>
+    <img src="https://s.yimg.com/ny/api/res/1.2/xM5m1WUhNjwxnXG7dj21qw--/YXBwaWQ9aGlnaGxhbmRlcjt3PTY0MDtoPTM2MA--/https://media.zenfs.com/en/gobankingrates_644/83eb927ab67e748bfd226eee0a6eecd3" width="100%">
+
+   <div class="post-stats">
+    <div>
+      <img src="https://www.iconbunny.com/icons/media/catalog/product/cache/2/thumbnail/300x/1b89f2fc96fc819c2a7e15c7e545e8a9/2/8/2864.1-thumbs-up-icon-iconbunny.jpg">
+      <img src="https://media.istockphoto.com/id/1131944419/vector/red-heart-design-icon-flat-valentines-day-sign-emblem-isolated-on-white-background-flat.jpg?s=612x612&w=0&k=20&c=RfzCBllw20ksTmHQuOLLCECOYcnFNt-53jOvc8tUpJ8=">
+      <img src="https://em-content.zobj.net/source/microsoft-teams/337/clapping-hands_1f44f.png">
+      <span class="liked-users">Abhinav Mishra and 75 others</span>
+    </div>
+    <div>
+      <span>22 comments &middot; 40 shares</span>
+    </div>
+   </div>
+    <div class="post-activity">
+     <div>
+      <img src="https://99designs-blog.imgix.net/blog/wp-content/uploads/2017/06/ge.png?auto=format&q=60&fit=max&w=930" class="post-activity-user-icon">
+      <img src="https://cdn-icons-png.flaticon.com/512/58/58979.png" class="post-activity-arrow-icon">
+     </div>
+     <div class="post-activity-link">
+      <img src="https://www.iconbunny.com/icons/media/catalog/product/cache/2/thumbnail/300x/1b89f2fc96fc819c2a7e15c7e545e8a9/2/8/2864.1-thumbs-up-icon-iconbunny.jpg">
+      <span>Like</span>
+     </div>
+    <div class="post-activity-link">
+      <img src="https://simg.nicepng.com/png/small/82-824139_chat-icons-png-image-library-message-icon-black.png">
+      <span>Comment</span>
+    </div>
+    <div class="post-activity-link">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_7Ee3cQgZWpX_WGs7tbF-Tlpfv8_db6T0s01Au6Hmnm9Z7L-VOCJ48bufAe2wvxbI0jI&usqp=CAU">
+      <span>Share</span>
+    </div>
+    <div class="post-activity-link">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3dXZDIUmqcv8nQxl6tVoGbGkDiOiTcyj_5yR_hcelab7YnKjJpCEV_8KKfb9FGwpZKWM&usqp=CAU">
+      <span>Send</span>
+    </div>
+    </div>
+   </div>
+
+    <div class="post">
+      <div class="post-author">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRaUr0f6DkaXK2QUSYCirQDWHej26WmmaWnJg&usqp=CAU">
+        <div>
+          <h1>Mike Smith</h1>
+          <small>Wordpress Development</small>
+          <small>3 hours ago</small>
+        </div>
+      </div>
+      <p>You won't depend on developers to launch new pages, sites or campaigns.
+      
+      Build custom landing pages, product detail sites, and add new stores to your store finder. Once you’ve set up your
+      content blocks you can reuse them to build new campaign pages and increase engagement without your developer’s 
+      help. Try now for free.</p>
+      <img src="https://wpwebsitetools.com/wp-content/uploads/2021/11/What-does-a-WordPress-Developer-do-FAQs-and-what-it-takes.png" width="100%">
+    
+      <div class="post-stats">
+        <div>
+          <img    src="https://www.iconbunny.com/icons/media/catalog/product/cache/2/thumbnail/300x/1b89f2fc96fc819c2a7e15c7e545e8a9/2/8/2864.1-thumbs-up-icon-iconbunny.jpg">
+          <img
+            src="https://media.istockphoto.com/id/1131944419/vector/red-heart-design-icon-flat-valentines-day-sign-emblem-isolated-on-white-background-flat.jpg?s=612x612&w=0&k=20&c=RfzCBllw20ksTmHQuOLLCECOYcnFNt-53jOvc8tUpJ8=">
+          <img src="https://em-content.zobj.net/source/microsoft-teams/337/clapping-hands_1f44f.png">
+          <span class="liked-users">John Ahila and 80 others</span>
+        </div>
+        <div>
+          <span>21 comments &middot; 41 shares</span>
+        </div>
+      </div>
+      <div class="post-activity">
+        <div>
+          <img src="https://99designs-blog.imgix.net/blog/wp-content/uploads/2017/06/ge.png?auto=format&q=60&fit=max&w=930"
+            class="post-activity-user-icon">
+          <img src="https://cdn-icons-png.flaticon.com/512/58/58979.png" class="post-activity-arrow-icon">
+        </div>
+        <div class="post-activity-link">
+          <img   src="https://www.iconbunny.com/icons/media/catalog/product/cache/2/thumbnail/300x/1b89f2fc96fc819c2a7e15c7e545e8a9/2/8/2864.1-thumbs-up-icon-iconbunny.jpg">
+          <span>Like</span>
+        </div>
+        <div class="post-activity-link">
+          <img src="https://simg.nicepng.com/png/small/82-824139_chat-icons-png-image-library-message-icon-black.png">
+          <span>Comment</span>
+        </div>
+        <div class="post-activity-link">
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_7Ee3cQgZWpX_WGs7tbF-Tlpfv8_db6T0s01Au6Hmnm9Z7L-VOCJ48bufAe2wvxbI0jI&usqp=CAU">
+          <span>Share</span>
+        </div>
+        <div class="post-activity-link">
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3dXZDIUmqcv8nQxl6tVoGbGkDiOiTcyj_5yR_hcelab7YnKjJpCEV_8KKfb9FGwpZKWM&usqp=CAU">
+          <span>Send</span>
+        </div>
+      </div>
+    </div>
+
+  <div class="post">
+    <div class="post-author">
+      <img src="https://99designs-blog.imgix.net/blog/wp-content/uploads/2017/06/ge.png?auto=format&q=60&fit=max&w=930">
+      <div>
+        <h1>John Ahila</h1>
+        <small>Javascript Development</small>
+        <small>5 hours ago</small>
+      </div>
+    </div>
+    <p>More than 1,300 hands-on labs enable technologists to develop stronger proficiencies in specific skills or 
+      technologies through step-by-step instruction, practice exercises, and projects. In fact, Skills is the only 
+      upskilling platform that offers labs across all technology domains. We’ve totally got you covered.</p>
+    <img src="https://www.csschopper.com/blog/wp-content/uploads/2022/03/Everything-You-Need-to-Know-About-JavaScript-Development-1.jpg" width="100%">
+    <div class="post-stats">
+      <div>
+        <img   src="https://www.iconbunny.com/icons/media/catalog/product/cache/2/thumbnail/300x/1b89f2fc96fc819c2a7e15c7e545e8a9/2/8/2864.1-thumbs-up-icon-iconbunny.jpg">
+        <img
+          src="https://media.istockphoto.com/id/1131944419/vector/red-heart-design-icon-flat-valentines-day-sign-emblem-isolated-on-white-background-flat.jpg?s=612x612&w=0&k=20&c=RfzCBllw20ksTmHQuOLLCECOYcnFNt-53jOvc8tUpJ8=">
+        <img src="https://em-content.zobj.net/source/microsoft-teams/337/clapping-hands_1f44f.png">
+        <span class="liked-users">Jessica Ryan and 30 others</span>
+      </div>
+      <div>
+        <span>15 comments &middot; 20 shares</span>
+      </div>
+    </div>
+    <div class="post-activity">
+      <div>
+        <img src="https://99designs-blog.imgix.net/blog/wp-content/uploads/2017/06/ge.png?auto=format&q=60&fit=max&w=930"
+          class="post-activity-user-icon">
+        <img src="https://cdn-icons-png.flaticon.com/512/58/58979.png" class="post-activity-arrow-icon">
+      </div>
+      <div class="post-activity-link">
+        <img
+src="https://www.iconbunny.com/icons/media/catalog/product/cache/2/thumbnail/300x/1b89f2fc96fc819c2a7e15c7e545e8a9/2/8/2864.1-thumbs-up-icon-iconbunny.jpg">
+        <span>Like</span>
+      </div>
+      <div class="post-activity-link">
+        <img src="https://simg.nicepng.com/png/small/82-824139_chat-icons-png-image-library-message-icon-black.png">
+        <span>Comment</span>
+      </div>
+      <div class="post-activity-link">
+        <img
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_7Ee3cQgZWpX_WGs7tbF-Tlpfv8_db6T0s01Au6Hmnm9Z7L-VOCJ48bufAe2wvxbI0jI&usqp=CAU">
+        <span>Share</span>
+      </div>
+      <div class="post-activity-link">
+        <img
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3dXZDIUmqcv8nQxl6tVoGbGkDiOiTcyj_5yR_hcelab7YnKjJpCEV_8KKfb9FGwpZKWM&usqp=CAU">
+        <span>Send</span>
+      </div>
+    </div>
+  </div>
+
+    <div class="post">
+      <div class="post-author">
+        <img src="https://www.shutterstock.com/shutterstock/photos/2104200374/display_1500/stock-photo-portrait-of-a-cheerful-young-businesswoman-sitting-at-the-table-in-office-and-looking-at-camera-2104200374.jpg">
+        <div>
+          <h1>Jessica Ryan</h1>
+          <small>Technology Development - Information Here</small>
+          <small>3 hours ago</small>
+        </div>
+      </div>
+      <p>Technology teams are only as successful as their skills are relevant. Give them access to Pluralsight Skills— 
+        courses, assessments, learning paths, and labs—and you give them the tech fluency they need to build business- 
+        critical skills.</p>
+      <img src="https://media.istockphoto.com/id/1014801592/photo/business-woman-working-at-office-desk.jpg?s=170667a&w=0&k=20&c=9RNR0ZON9y_JVbM73FMjs7ViVwDkLowva-X7rcsn8g8=" width="100%">
+      <div class="post-stats">
+        <div>
+          <img
+ src="https://www.iconbunny.com/icons/media/catalog/product/cache/2/thumbnail/300x/1b89f2fc96fc819c2a7e15c7e545e8a9/2/8/2864.1-thumbs-up-icon-iconbunny.jpg">
+          <img
+            src="https://media.istockphoto.com/id/1131944419/vector/red-heart-design-icon-flat-valentines-day-sign-emblem-isolated-on-white-background-flat.jpg?s=612x612&w=0&k=20&c=RfzCBllw20ksTmHQuOLLCECOYcnFNt-53jOvc8tUpJ8=">
+          <img src="https://em-content.zobj.net/source/microsoft-teams/337/clapping-hands_1f44f.png">
+          <span class="liked-users">Mike Smith and 75 others</span>
+        </div>
+        <div>
+          <span>30 comments &middot; 25 shares</span>
+        </div>
+      </div>
+      <div class="post-activity">
+        <div>
+          <img  src="https://99designs-blog.imgix.net/blog/wp-content/uploads/2017/06/ge.png?auto=format&q=60&fit=max&w=930"
+            class="post-activity-user-icon">
+          <img src="https://cdn-icons-png.flaticon.com/512/58/58979.png" class="post-activity-arrow-icon">
+        </div>
+        <div class="post-activity-link">
+          <img
+ src="https://www.iconbunny.com/icons/media/catalog/product/cache/2/thumbnail/300x/1b89f2fc96fc819c2a7e15c7e545e8a9/2/8/2864.1-thumbs-up-icon-iconbunny.jpg">
+          <span>Like</span>
+        </div>
+        <div class="post-activity-link">
+          <img src="https://simg.nicepng.com/png/small/82-824139_chat-icons-png-image-library-message-icon-black.png">
+          <span>Comment</span>
+        </div>
+        <div class="post-activity-link">
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_7Ee3cQgZWpX_WGs7tbF-Tlpfv8_db6T0s01Au6Hmnm9Z7L-VOCJ48bufAe2wvxbI0jI&usqp=CAU">
+          <span>Share</span>
+        </div>
+        <div class="post-activity-link">
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3dXZDIUmqcv8nQxl6tVoGbGkDiOiTcyj_5yR_hcelab7YnKjJpCEV_8KKfb9FGwpZKWM&usqp=CAU">
+          <span>Send</span>
+        </div>
+      </div>
+    </div>
+
+    </div>
+    <!---------------right-sidebar------- -->
+    <div class="right-sidebar">
+      <div class="sidebar-news">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFoAmFZlW6Wk4VjRk7dIerTy6rE36PuU5qwg0QKdzW7tIm0ktpxFoAgk3mjdnxH2qRBGM&usqp=CAU" class="info-icon">
+        <h3>Trending News</h3>
+        <a href="#">High demand for Skilled Manpower</a>
+        <span>1d ago &middot; 10,934 readers</span>
+
+        <a href="#">Careers growing horizontally too</a>
+        <span>19h ago &middot; 1,552 readers</span>
+
+        <a href="#">Less work visa for US, more for UK</a>
+        <span>1d ago &middot; 27,290 readers</span> 
+
+        <a href="#">More hiring = higher confidence?</a>
+        <span>18h ago &middot; 8,208 readers</span>
+
+        <a href="#">Gautam Adani is the world's third richest</a>
+        <span>12h ago &middot; 4,205 readers</span>
+
+        <a href="#" class="read-more-link">Read More</a>
+      </div>
+
+     <div class="sidebar-ad">
+      <small>Ad &middot; &middot; &middot;</small>
+      <p>Learn the 5 priciples of web design</p>
+      <div>
+        <img src="https://99designs-blog.imgix.net/blog/wp-content/uploads/2017/06/ge.png?auto=format&q=60&fit=max&w=930">
+        <img src="https://i.pinimg.com/originals/7a/0d/05/7a0d054e60bc1a2fc44988f9e3ece709.png">
+      </div>
+      <b>Brand and Demand in Xiaomi</b>
+      <a href="#" class="ad-link">Learn More</a>
+     </div>
+
+     <div class="sidebar-useful-links">
+        <a href="#">About</a>
+        <a href="#">Accessiblity</a>
+        <a href="#">Help Center</a>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Advertising</a>
+        <a href="#">Get the App</a>
+        <a href="#">More</a>
+
+        <div class="copyright-msg">
+          <img src="https://99designs-blog.imgix.net/blog/wp-content/uploads/2017/06/ge.png?auto=format&q=60&fit=max&w=930">
+          <p>Linkedup &#169; 2023. All right reserved</p>
+        </div>
+     </div>
+     
+    </div>
+  </div>
+
+
+ 
+<script>
+
+  let profileMenu = document.getElementById("profileMenu");
+
+  function toggleMenu(){
+    profileMenu.classList.toggle("open-menu");
+}
+
+</script>
+
+<script>
+
+   let sideActivity = document.getElementById("sidebarActivity");
+   let moreLink = document.getElementById("showMoreLink");
+
+   function toggleActivity(){
+      sideActivity.classList.toggle("open-activity");
+      if(sideActivity.classList.contains("open-activity")){
+        moreLink.innerHTML = "show less <b>-</b>";
+      }
+      else{
+        moreLink.innerHTML = "show more <b>+</b>";
+      }
+   }
+
+</script>
+
+
+</body>
+</html>
